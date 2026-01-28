@@ -18,6 +18,8 @@ options:
   mqtt_password: "password"
   usb_port: "/dev/ttyUSB0" 
   debug: false
+  units: 
+    836d1983631e: obyvak
 schema:
   mqtt_host: str
   mqtt_host_port: int
@@ -25,4 +27,5 @@ schema:
   mqtt_password: str
   usb_port: str
   debug: bool
+  units: object
 
