@@ -2,6 +2,8 @@ name: "Hardwario BCG"
 version: 7
 slug: "hardwario_bcg"
 description: "Addon for BigClown USB radio dongle!"
+map:
+  - config:rw
 arch:
   - aarch64
   - amd64
