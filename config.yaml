@@ -20,7 +20,7 @@ options:
   mqtt_password: "password"
   usb_port: "/dev/ttyUSB0" 
   debug: false
-  config_file: "konfig.yaml"
+  config_file: "/config/konfig.yaml"
 schema:
   mqtt_host: str
   mqtt_host_port: int
