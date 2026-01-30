@@ -7,7 +7,7 @@ RUN \
   apk add --no-cache \
     python3 py3-pip
 # RUN pip3 install --no-cache-dir bcg
-RUN pip3 install git+https://github.com/Molke18/bch-gateway
+RUN pip3 install git+https://github.com/Molke18/bch-gateway.git@master
 ADD run.sh /run.sh
 RUN chmod a+x /run.sh
 CMD ["/run.sh"]
