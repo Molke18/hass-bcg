@@ -14,19 +14,7 @@ startup: "application"
 devices: 
   - "/dev/ttyUSB0"
 options:
-  mqtt_host: "localhost"
-  mqtt_host_port: 1883
-  mqtt_username: "username"
-  mqtt_password: "password"
-  usb_port: "/dev/ttyUSB0" 
-  debug: false
   config_file: "/config/konfig.yaml"
 schema:
-  mqtt_host: str
-  mqtt_host_port: int
-  mqtt_username: str
-  mqtt_password: str
-  usb_port: str
-  debug: bool
   config_file: str
 
