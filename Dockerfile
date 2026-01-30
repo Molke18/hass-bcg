@@ -5,6 +5,7 @@ WORKDIR /data
 # Install requirements for add-on
 RUN \
   apk add --no-cache \
+  git \
     python3 py3-pip
 # RUN pip3 install --no-cache-dir bcg
 RUN pip3 install git+https://github.com/Molke18/bch-gateway.git@master
