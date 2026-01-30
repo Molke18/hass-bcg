@@ -1,5 +1,5 @@
 name: "BigClown BCG"
-version: 0.1
+version: 0.11
 slug: "hardwario_bcg"
 description: "Addon for BigClown USB radio dongle!"
 map:
