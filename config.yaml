@@ -3,6 +3,7 @@ version: 0.1
 slug: "hardwario_bcg"
 description: "Addon for BigClown USB radio dongle!"
 map:
+  - config:rw
   - addon_config:rw
   - all_addon_configs:rw
 arch:
