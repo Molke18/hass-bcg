@@ -14,7 +14,7 @@ startup: "application"
 devices: 
   - "/dev/ttyUSB0"
 options:
-  config_file: "/config/konfig.yaml"
+  config_file: "/config/bcg_config.yaml"
 schema:
   config_file: str
 
