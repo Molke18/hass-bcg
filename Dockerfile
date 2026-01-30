@@ -20,18 +20,18 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="ha-hardwario" \
-    io.hass.description="home assistant ha-hardwario add-on" \
+    io.hass.name="hass-bcg" \
+    io.hass.description="home assistant bcg-bigclown add-on" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="MarianRychtecky" \
-    org.label-schema.description="Home Assistant ha-hardwario add-on" \
+    maintainer="Molke18" \
+    org.label-schema.description="Home Assistant bcg-bigclown add-on" \
     org.label-schema.build-date=${BUILD_DATE} \
-    org.label-schema.name="ha-hardwario" \
+    org.label-schema.name="bcg-bigclown" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.url="https://github.com/MarianRychtecky/ha-hardwario" \
-    org.label-schema.usage="https://github.com/MarianRychtecky/ha-hardwario/README.md" \
+    org.label-schema.url="https://github.com/Molke18/hass-bcg" \
+    org.label-schema.usage="https://github.com/Molke18/hass-bcg/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/MarianRychtecky/ha-hardwario" \
+    org.label-schema.vcs-url="https://github.com/Molke18/hass-bcg" \
     org.label-schema.vendor="Hass.io Addons"
