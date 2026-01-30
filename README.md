@@ -1,6 +1,5 @@
 # Hardwario-BCG
-Home Assistant add-on to support Hardwario (www.hardwario.com) USB radio dongle
-
+Home Assistant add-on to support BigClown (www.hardwario.com) USB radio dongle
 Main documentation of the Hardwario USB dongle is available here https://tower.hardwario.com/en/latest/tools/hardwario-gateway/
 
 ## Installation
