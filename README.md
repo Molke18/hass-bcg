@@ -12,8 +12,12 @@ Main documentation of the Hardwario USB dongle is available here https://tower.h
 ### Step 3 - Install the add-on
  Go to the Home Assistant Add-on section Configuration -> Add-ons - click Add-on store (downright hand side) - click three dots in the upper corner - Repositories. Insert https://github.com/MarianRychtecky/ha-hardwario and click Add. This process will take about 2 minutes.
 
-### Step 4 - Configuration
- When the installation is done, click on "Hardwario BCG" add-on -> Configuration. Fill in all values as per your installation and click Save. Optionally you can select DEBUG mode.
+### Step 4 - Create config file
+Create config file in "config" folder in Home Assistant. Use File editor
+ https://github.com/home-assistant/addons/blob/master/configurator/README.md
 
-### Step 5 - Running
+### Step 5 - Configuration
+ When the installation is done, click on "Hardwario BCG" add-on -> Configuration. Fill in configuration filename like "config/bcg_configuration.yaml" 
+
+### Step 6- Running
  Start the add-on and look at the log messages for more information.
