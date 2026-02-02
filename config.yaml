@@ -1,9 +1,9 @@
 name: "BigClown BCG"
-version: 0.14
+version: 0.15
 slug: "hardwario_bcg"
 description: "Addon for BigClown USB radio dongle!"
 map:
-  - config: rw
+  - config:rw
 arch:
   - aarch64
   - amd64
